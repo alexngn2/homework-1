@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat",sans-serif;
+}
+.contact-section{
+  background-image: url('DSC00660.jpg');
+
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  padding: 342px 0;
+  text-align: center;
+}
+
+.inner-width{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.contact-section h1{
+  font-size: 30px;
+  color: #c72;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 800;
+}
+
+.name,.email,.message{
+  background: #2f2f2f;
+  border: #ffffff;;
+  outline: none;
+  border-bottom: 1px solid;
+  color: #c72;
+  padding: 10px 6px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.name{
+  float: left;
+  width: 270px;
+}
+
+.email{
+  float: right;
+  width: 270px;
+}
+
+.message{
+  min-width: 100%;
+  max-width: 100%;
+}
+
+
+.contact-section button{
+  color:#2F4F4F;
+  color: #c72;
+  border: 1px solid #c72;
+  padding: 12px 40px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.4s linear;
+  cursor: pointer;
+}
+
+.contact-section button:hover{
+  background: #2F4F4F;
+  color: #fff;
+}
+
+
+@media screen and (max-width:600px){
+  .name,.email{
+    width: 100%;
+  }
+}

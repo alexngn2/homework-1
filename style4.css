@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.middle{
+  position: absolute;
+  top: 1%;
+  right: 137%;
+  transform: translate(-50%,-50%);
+}
+
+.sm-container{
+  text-align: center;
+}
+
+.sm-container i{
+  color: #ffffff;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.sm-container i:hover{
+  transform: scale(1.5);
+}
+
+.sm-menu{
+  background: #2F4F4F;
+  position: absolute;
+  border-radius: 8px;
+  display: none;
+}
