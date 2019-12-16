@@ -1,9 +1,18 @@
-*{
+*body{
     margin: 0;
     padding: 0;
 }
-  body{
-      background-image: url("DSC02296.jpg");
+  body
+  {
+      background-image: url("DSC02350.jpg");
       background-size: cover;
-      background-position: top 15% left 0;
+  }
+  body{font-family: 'Archivo Black', sans-serif;
+  }
+  body, html{
+height: 100%
+  }
+  h1, p {
+color: #ffffff;
+text-align: center;
   }
