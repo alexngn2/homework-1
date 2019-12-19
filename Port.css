@@ -1,18 +1,14 @@
-*body{
-    margin: 0;
-    padding: 0;
-}
-  body
-  {
-      background-image: url("DSC02350.jpg");
-      background-size: cover;
+h1{
+  color: #c72;
+  text-decoration: underline;
+  
   }
-  body{font-family: 'Archivo Black', sans-serif;
+  body{
+  background-image: url("DSC_0789.jpg");
+  background-size: cover;
   }
-  body, html{
-height: 100%
-  }
-  h1, p {
-color: #ffffff;
-text-align: center;
-  }
+  body,h1 {
+  color: #c72;
+  font-family: "Montserrat", sans-serif}
+  img {margin-bottom: -7px}
+  .w3-row-padding img {margin-bottom: 12px}
