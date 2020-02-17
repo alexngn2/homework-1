@@ -6,6 +6,7 @@
   }
   body{
     background: #333;
+    background-size: cover;
   }
   .middle{
     position: absolute;
@@ -39,7 +40,7 @@
   .back-content{
     color: #2c3e50;
     text-align: center;
-    width: 100%;
+    width: 75%;
   }
   .sm{
     margin: 20px 0;
